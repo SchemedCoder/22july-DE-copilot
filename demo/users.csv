@@ -1,0 +1,7 @@
+user_id,first_name,last_name,email,created_at,updated_at
+u1,Alice,Smith,alice@example.com,2023-01-01,2023-01-01
+u1,Alice,Smith,alice.smith@example.com,2023-01-01,2023-06-15
+u2,Bob,Jones,bob@example.com,2023-02-15,2023-02-15
+u3,Charlie,Brown,charlie@example.com,2023-03-10,2023-03-10
+u3,Charlie,Brown,charlie.b@example.com,2023-03-10,2023-08-20
+u3,Charlie,Brown,charlie.brown@example.com,2023-03-10,2023-09-05

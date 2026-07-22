@@ -1,0 +1,32 @@
+{
+    "table_name": "raw_user_events",
+    "description": "Raw events streamed from the frontend application.",
+    "columns": [
+        {
+            "name": "event_id",
+            "type": "STRING",
+            "description": "Unique identifier for the event."
+        },
+        {
+            "name": "user_id",
+            "type": "STRING",
+            "description": "ID of the user who performed the action."
+        },
+        {
+            "name": "event_type",
+            "type": "STRING",
+            "description": "Type of event, e.g., 'login', 'page_view', 'checkout'."
+        },
+        {
+            "name": "event_timestamp",
+            "type": "TIMESTAMP",
+            "description": "UTC timestamp of when the event occurred."
+        },
+        {
+            "name": "metadata",
+            "type": "JSON",
+            "description": "Additional context about the event."
+        }
+    ],
+    "primary_key": ["event_id"]
+}
